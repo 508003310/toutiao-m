@@ -2,7 +2,11 @@
   <div id="app">
 
     <router-view/>
-    qhh
+    <h4>qhh</h4>
+  <i class="iconfont icon-wode"></i>
+  <van-button loading type="primary" />
+<van-button loading type="primary" loading-type="spinner" />
+<van-button loading type="info" loading-text="加载中..." />
   </div>
 </template>
 <script>
